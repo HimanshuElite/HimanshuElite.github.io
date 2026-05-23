@@ -1,49 +1,240 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himanshu Rana - Wikipedia Style Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #202122;
+    }
 
-<title>Himanshu</title>
+    .topbar {
+      background: white;
+      border-bottom: 1px solid #a2a9b1;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
 
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #000;
+    }
+
+    .search-box input {
+      padding: 8px;
+      width: 260px;
+      border: 1px solid #a2a9b1;
+      border-radius: 2px;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1300px;
+      margin: auto;
+    }
+
+    .sidebar {
+      width: 220px;
+      background: #eaecf0;
+      padding: 20px;
+      min-height: 100vh;
+      border-right: 1px solid #a2a9b1;
+    }
+
+    .sidebar h3 {
+      font-size: 16px;
+      margin-top: 0;
+    }
+
+    .sidebar a {
+      display: block;
+      text-decoration: none;
+      color: #0645ad;
+      margin: 8px 0;
+    }
+
+    .content {
+      flex: 1;
+      padding: 30px;
+      background: white;
+    }
+
+    h1 {
+      font-size: 34px;
+      border-bottom: 1px solid #a2a9b1;
+      padding-bottom: 10px;
+    }
+
+    h2 {
+      border-bottom: 1px solid #eaecf0;
+      padding-bottom: 5px;
+      margin-top: 35px;
+      color: #202122;
+    }
+
+    p {
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    .infobox {
+      float: right;
+      width: 300px;
+      border: 1px solid #a2a9b1;
+      background: #f8f9fa;
+      margin: 0 0 20px 20px;
+      font-size: 14px;
+    }
+
+    .infobox-title {
+      background: #36c;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .infobox img {
+      width: 100%;
+      display: block;
+    }
+
+    .infobox table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .infobox td {
+      padding: 8px;
+      border-top: 1px solid #eaecf0;
+    }
+
+    .footer {
+      margin-top: 50px;
+      padding-top: 20px;
+      border-top: 1px solid #a2a9b1;
+      font-size: 13px;
+      color: gray;
+    }
+
+    .highlight {
+      color: #0645ad;
+      font-weight: bold;
+    }
+
+    @media(max-width: 900px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .sidebar {
+        width: 100%;
+        min-height: auto;
+      }
+
+      .infobox {
+        float: none;
+        width: 100%;
+        margin: 20px 0;
+      }
+    }
+  </style>
 </head>
-
 <body>
 
-<marquee><font color="gold" size=8 face="arial">
+  <div class="topbar">
+    <div class="logo">Wikipedia</div>
+    <div class="search-box">
+      <input type="text" placeholder="Search Wikipedia">
+    </div>
+  </div>
 
-<p>1CR LOTTRY FROM KBC</p></font></marquee>
+  <div class="container">
 
-<form>
+    <div class="sidebar">
+      <h3>Navigation</h3>
+      <a href="#">Main page</a>
+      <a href="#">Contents</a>
+      <a href="#">Current events</a>
+      <a href="#">Random article</a>
+      <a href="#">About Wikipedia</a>
 
-<center><b><i><h1>FILL FORM TO CLAIM</h1></b></i></center>
+      <h3>Tools</h3>
+      <a href="#">What links here</a>
+      <a href="#">Related changes</a>
+      <a href="#">Upload file</a>
+      <a href="#">Printable version</a>
+    </div>
 
-Name:<input type="text"><br>
+    <div class="content">
 
-Password: <input type="password"><br>
+      <h1>Himanshu Rana</h1>
 
-<input type="radio">MALE<br>
+      <div class="infobox">
+        <div class="infobox-title">Himanshu Rana</div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" alt="Himanshu Rana">
+        <table>
+          <tr>
+            <td><b>Born</b></td>
+            <td>India</td>
+          </tr>
+          <tr>
+            <td><b>Known for</b></td>
+            <td>Social work, innovation, helping people</td>
+          </tr>
+          <tr>
+            <td><b>Nationality</b></td>
+            <td>Indian</td>
+          </tr>
+          <tr>
+            <td><b>Occupation</b></td>
+            <td>Public figure, youth inspiration</td>
+          </tr>
+        </table>
+      </div>
 
-<input type="radio">FEMALE<BR>
+      <p>
+        <span class="highlight">Himanshu Rana</span> is a fictional personality page created in a Wikipedia-inspired style for educational and creative purposes. He is described as a highly respected individual known for helping communities, motivating young people, and supporting positive social change.
+      </p>
 
-<select> male
+      <h2>Early Life</h2>
+      <p>
+        Himanshu Rana was born in India and became known for his dedication toward education, kindness, and community service from a young age. According to this fictional biography, he was admired for his leadership qualities and strong determination.
+      </p>
 
-<option>Dehradun</option>
+      <h2>Career and Achievements</h2>
+      <p>
+        Himanshu Rana gained recognition for organizing social campaigns, helping students, and inspiring people through motivational activities. He was considered a role model by many people in his local area.
+      </p>
 
-<option>Haridwar</option>
+      <p>
+        In this creative page design, he is also described as contributing to technology awareness and educational development programs for students.
+      </p>
 
-</select><br>
+      <h2>Public Image</h2>
+      <p>
+        Supporters describe Himanshu Rana as a hardworking and intelligent personality with a positive attitude. His fictional public image is associated with discipline, kindness, and helping others succeed.
+      </p>
 
-Email:<input type><br>
+      <h2>Legacy</h2>
+      <p>
+        The fictional biography states that Himanshu Rana inspired many young individuals to focus on education, fitness, and personal growth. His story represents determination and positivity.
+      </p>
 
-Bank Acc Number: <input type><br>
+      <div class="footer">
+        This page is a fan-made fictional Wikipedia-style design created for learning and creative purposes. It is not an official Wikipedia article.
+      </div>
 
-Bank Acc Password: <input type="password"><br>
-
-Credit card details:<input type><br>
-
-Mobile number:<input type>
-
-OTP:<input type>
-
-</form>
+    </div>
+  </div>
 
 </body>
+</html>
